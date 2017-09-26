@@ -1,197 +1,147 @@
-
-# tap repositories and their packages
-
-tap puma/puma
-brew puma-dev
-
-tap homebrew/fuse
-
-tap homebrew/core
-brew mobile-shell
-brew mhash
-brew jpeg
-brew graphviz
-brew ssh-copy-id
-brew zsh-completions
-brew gd
-brew mysql
-brew go
-brew gdbm
-brew libvo-aacenc
-brew cowsay
-brew cython
-brew pcre2
-brew glide
-brew git-flow-avh
-brew proxychains-ng
-brew wrk
-brew ripgrep
-brew fontconfig
-brew htop-osx
-brew sysbench
-brew diff-so-fancy
-brew freetype
-brew python
-brew swig
-brew libvterm
-brew watch
-brew libtermkey
-brew lzo
-brew sysdig
-brew ncftp
-brew python3
-brew luajit
-brew makedepend
-brew libyaml
-brew mbedtls
-brew jsoncpp
-brew mitmproxy
-brew ruby-build
-brew pkg-config
-brew antigen
-brew fish
-brew x264
-brew webp
-brew hping
-brew jemalloc
-brew xmlstarlet
-brew texi2html
-brew msgpack
-brew yasm
-brew automake
-brew lua
-brew libpng
-brew xvid
-brew optipng
-brew boost
-brew libsodium
-brew git-extras
-brew imagemagick
-brew cmatrix
-brew fping
-brew jq
-brew swagger-codegen
-brew maven
-brew mosquitto
-brew libwebsockets
-brew wget
-brew c-ares
-brew iperf3
-brew ack
-brew zsh
-brew phantomjs
-brew openssl
-brew yarn
-brew icu4c
-brew asciinema
-brew daemonize
-brew docbook
-brew mcrypt
-brew awscli
-brew nmap
-brew libtiff
-brew govendor
-brew tmux --HEAD
-brew vim --with-gettext --with-python3 --with-lua --with-tcl
-brew xz
-brew ntfs-3g
-brew dos2unix
-brew pcre
-brew libssh2
-brew git --without-completions
-brew libev
-brew perl
-brew ctags
-brew gnu-getopt
-brew xmlto
-brew the_silver_searcher
-brew libevent
-brew ruby
-brew ffmpeg
-brew mtr
-brew shellcheck
-brew tree
-brew pwgen
-brew fzf
-brew reattach-to-user-namespace
-brew archey
-brew highlight
-brew autoconf
-brew gnu-sed
-brew rust
-brew rename
-brew sqlite
-brew sphinx-doc
-brew intltool
-brew ansible
-brew socat
-brew mycli
-brew figlet
-brew cmake
-brew gnuplot
-brew lame
-brew udns
-brew gettext
-brew coreutils
-brew fpp
-brew xhyve
-brew docbook-xsl
-brew tig
-brew node
-brew mas
-brew protobuf
-brew asciidoc
-brew shadowsocks-libev
-brew unibilium
-brew libtool
-brew openssl@1.1
-brew httpie
-brew oniguruma
-brew readline
-brew lnav
-brew monit
-brew sl
-brew rbenv
-brew libuv
-brew yank
-
-tap homebrew/bundle
-
-tap homebrew/services
-
-tap caskroom/cask
-cask qlmarkdown
-cask macdown
-cask osxfuse
-cask keycastr
-cask quicklook-json
-cask qlcolorcode
-cask qlimagesize
-cask quicklook-csv
-cask java
-
-tap rcmdnk/file
-brew brew-file
-
-tap neovim/neovim
-
-# App Store applications
-appstore 434433123 Apple Configurator (1.7.2)
-appstore 973134470 Be Focused (1.6.2)
-appstore 543848771 Free-Video-Converter (2.1.0)
-appstore 408980954 GarageBand (6.0.5)
-appstore 490152466 iBooks Author (2.6)
-appstore 408981434 iMovie (10.1.7)
-appstore 0 Install macOS High Sierra (13.0.64)
-appstore 1059334054 Jietu (2.3.0)
-appstore 409183694 Keynote (7.3)
-appstore 539883307 LINE (5.3.3)
-appstore 715768417 Microsoft Remote Desktop (8.0.27319)
-appstore 421131143 MPlayerX (1.0.14)
-appstore 409203825 Numbers (4.3)
-appstore 409201541 Pages (6.3)
-appstore 710575188 QuickCast (1.26)
-appstore 803453959 Slack (2.8.0)
-appstore 822514576 SonicWall Mobile Connect (4.0.16)
-appstore 836500024 WeChat (2.3.2)
-appstore 497799835 Xcode (9.0)
+tap "puma/puma"
+tap "homebrew/fuse"
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "caskroom/cask"
+tap "rcmdnk/file"
+tap "neovim/neovim"
+cask "java"
+cask "osxfuse"
+brew "ack"
+brew "libyaml"
+brew "gdbm"
+brew "openssl"
+brew "readline"
+brew "sqlite"
+brew "python"
+brew "ansible"
+brew "antigen"
+brew "archey"
+brew "xz"
+brew "asciinema"
+brew "autoconf"
+brew "automake"
+brew "awscli"
+brew "boost"
+brew "c-ares"
+brew "cmatrix"
+brew "coreutils"
+brew "cowsay"
+brew "ctags"
+brew "daemonize"
+brew "diff-so-fancy"
+brew "dos2unix"
+brew "lame"
+brew "perl"
+brew "git", args: ["without-completions"]
+brew "x264"
+brew "xvid"
+brew "ffmpeg"
+brew "figlet"
+brew "pcre2"
+brew "fish"
+brew "freetype"
+brew "fontconfig"
+brew "fping"
+brew "fpp"
+brew "fzf"
+brew "gettext"
+brew "git-extras"
+brew "gnu-getopt"
+brew "git-flow-avh"
+brew "gnu-sed"
+brew "lua"
+brew "gnuplot"
+brew "libtool"
+brew "graphviz"
+brew "highlight"
+brew "hping"
+brew "htop-osx"
+brew "httpie"
+brew "icu4c"
+brew "imagemagick"
+brew "intltool"
+brew "iperf3"
+brew "oniguruma"
+brew "jq"
+brew "jsoncpp"
+brew "libevent"
+brew "libvo-aacenc"
+brew "libwebsockets"
+brew "lnav"
+brew "luajit"
+brew "mas"
+brew "mhash"
+brew "mcrypt"
+brew "mitmproxy"
+brew "mobile-shell"
+brew "monit"
+brew "mosquitto"
+brew "mtr"
+brew "mycli"
+brew "mysql"
+brew "ncftp"
+brew "nmap"
+brew "ntfs-3g"
+brew "optipng"
+brew "phantomjs"
+brew "pkg-config"
+brew "proxychains-ng"
+brew "pwgen"
+brew "ruby-build"
+brew "rbenv"
+brew "reattach-to-user-namespace"
+brew "rename"
+brew "ripgrep"
+brew "ruby"
+brew "shadowsocks-libev"
+brew "shellcheck"
+brew "sl"
+brew "socat"
+brew "ssh-copy-id"
+brew "swagger-codegen"
+brew "sysbench"
+brew "sysdig"
+brew "the_silver_searcher"
+brew "tig"
+brew "tmux", args: ["HEAD"]
+brew "tree"
+brew "vim", args: ["with-gettext", "with-lua", "with-python3", "with-tcl"]
+brew "watch"
+brew "wget"
+brew "wrk"
+brew "xhyve"
+brew "xmlstarlet"
+brew "yank"
+brew "yarn"
+brew "zsh"
+brew "zsh-completions"
+brew "puma/puma/puma-dev"
+brew "rcmdnk/file/brew-file"
+cask "keycastr"
+cask "macdown"
+cask "qlcolorcode"
+cask "qlimagesize"
+cask "qlmarkdown"
+cask "quicklook-csv"
+cask "quicklook-json"
+mas "Apple Configurator", id: 434433123
+mas "Be Focused", id: 973134470
+mas "Free-Video-Converter", id: 543848771
+mas "GarageBand", id: 408980954
+mas "iBooks Author", id: 490152466
+mas "iMovie", id: 408981434
+mas "Install macOS High Sierra", id: 0
+mas "Jietu", id: 1059334054
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Microsoft Remote Desktop", id: 715768417
+mas "MPlayerX", id: 421131143
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "QuickCast", id: 710575188
+mas "Slack", id: 803453959
+mas "SonicWall Mobile Connect", id: 822514576
+mas "WeChat", id: 836500024
+mas "Xcode", id: 497799835
