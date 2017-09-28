@@ -132,7 +132,6 @@ mas "Free-Video-Converter", id: 543848771
 mas "GarageBand", id: 408980954
 mas "iBooks Author", id: 490152466
 mas "iMovie", id: 408981434
-mas "Install macOS High Sierra", id: 0
 mas "Jietu", id: 1059334054
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
