@@ -128,22 +128,7 @@ cask "appcleaner"
 cask "cheatsheet"
 cask "dashlane"
 cask "discord"
-cask "filezilla"
 cask "flux"
-cask "font-dejavusansmono-nerd-font"
-cask "font-firacode-nerd-font"
-cask "font-firacode-nerd-font-mono"
-cask "font-hack-nerd-font"
-cask "font-hack-nerd-font-mono"
-cask "font-inconsolata"
-cask "font-iosevka"
-cask "font-meslo-for-powerline"
-cask "font-meslo-nerd-font"
-cask "font-meslo-nerd-font-mono"
-cask "font-powerline-symbols"
-cask "font-source-code-pro-for-powerline"
-cask "font-sourcecodepro-nerd-font"
-cask "font-sourcecodepro-nerd-font-mono"
 cask "fork"
 cask "hyper"
 cask "iina"
@@ -170,7 +155,6 @@ cask "wireshark"
 cask "zenmap"
 mas "1Password 7", id: 1333542190
 mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Microsoft Remote Desktop", id: 1295203466
@@ -181,3 +165,4 @@ mas "SonicWall Mobile Connect", id: 822514576
 mas "The Unarchiver", id: 425424353
 mas "WeChat", id: 836500024
 mas "Xcode", id: 497799835
+mas "iMovie", id: 408981434
