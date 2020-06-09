@@ -1,4 +1,3 @@
-tap "caskroom/cask"
 tap "cjbassi/gotop"
 tap "derailed/k9s"
 tap "getantibody/tap"
@@ -152,7 +151,6 @@ cask "insomnia"
 cask "iterm2"
 cask "itsycal"
 cask "jietu"
-cask "kap"
 cask "keka"
 cask "keybase"
 cask "keyboardcleantool"
@@ -168,10 +166,8 @@ cask "skype"
 cask "spectacle"
 cask "teamviewer"
 cask "telegram"
-cask "virtualbox"
 cask "wireshark"
 cask "zenmap"
-cask "zoomus"
 mas "1Password 7", id: 1333542190
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
