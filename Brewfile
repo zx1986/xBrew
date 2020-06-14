@@ -167,3 +167,17 @@ cask "telegram"
 cask "tunnelblick"
 cask "wireshark"
 cask "zenmap"
+mas "1Password 7", id: 1333542190
+mas "Dashlane", id: 552383089
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "QQ", id: 451108668
+mas "SonicWall Mobile Connect", id: 822514576
+mas "The Unarchiver", id: 425424353
+mas "WeChat", id: 836500024
+mas "Xcode", id: 497799835
