@@ -164,8 +164,10 @@ cask "tunnelblick"
 cask "wireshark"
 cask "zenmap"
 mas "1Password 7", id: 1333542190
+mas "AutoSwitchInput", id: 1470350547
 mas "Hidden Bar", id: 1452453066
 mas "iMovie", id: 408981434
+mas "iShot", id: 1485844094
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Microsoft Remote Desktop", id: 1295203466
