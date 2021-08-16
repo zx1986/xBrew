@@ -11,7 +11,6 @@ dump: ## 更新套件清單
 .PHONY: update
 update: ## 進行套件更新
 	brew update && brew upgrade && brew cleanup
-	awless completion zsh > ~/.awless.zsh
 
 .PHONY: check
 check: ## 運行環境健康檢查
