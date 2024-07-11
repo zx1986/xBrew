@@ -15,7 +15,6 @@ update: ## 進行套件更新
 .PHONY: check
 check: ## 運行環境健康檢查
 	brew doctor
-	brew cask doctor
 
 # Absolutely awesome: http://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
 .PHONY: help
